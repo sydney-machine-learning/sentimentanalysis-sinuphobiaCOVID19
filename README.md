@@ -7,10 +7,21 @@ This repository contains the code and data used for sentiment analysis of Sinoph
 The repository is organized into several directories and files, each containing code, data, and visualizations related to the sentiment analysis project:
 
 ### Directories:
-BERT_model/
-This directory contains the Jupyter notebook used for the BERT model in sentiment classification. It includes:
 
-BERT.ipynb: Jupyter notebook that handles training and fine-tuning the BERT model for sentiment analysis tasks.
+- **BERT_model/**  
+  This directory contains the Jupyter notebook used for the BERT model in sentiment classification. It includes:
+  - `BERT.ipynb`: Jupyter notebook that handles training and fine-tuning the BERT model for sentiment analysis tasks.
+ 
+- **Results/**  
+  This folder contains CSV files with the results of the sentiment analysis for the selected six countries. Including original tweet, text after preprocessing, and sentiment labels.
+
+- **Six_countries/**  
+  This directory contains individual Jupyter notebooks which preprocess and filter the data for each country in the study, and label the sentiments to each tweets.
+
+- **Visualisation/**  
+  This directory contains Jupyter notebooks dedicated to generating visualizations for the analysis, such as polarity scores and n-grams:
+  - `Polarity score.ipynb`: Jupyter notebook for calculating and visualizing polarity scores over time.
+  - `visualisation.ipynb`: Jupyter notebook containing additional visualizations, such as n-grams and trends by country.
 
 ## Dataset
 
