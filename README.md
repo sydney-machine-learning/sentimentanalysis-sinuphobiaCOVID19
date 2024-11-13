@@ -15,13 +15,16 @@ The repository is organized into several directories and files, each containing 
 - **Results/**  
   This folder contains CSV files with the results of the sentiment analysis for the selected six countries. Including original tweet, text after preprocessing, and sentiment labels.
 
-- **Six_countries/**  
-  This directory contains individual Jupyter notebooks which preprocess and filter the data for each country in the study, and label the sentiments to each tweets.
+- **Sample_OriginalDataset/**  
+  This directory contains the sample dataset of the six countries, each contain the first 100 rows of the dataset.
 
 - **Visualisation/**  
   This directory contains Jupyter notebooks dedicated to generating visualizations for the analysis, such as polarity scores and n-grams:
   - `Polarity score.ipynb`: Jupyter notebook for calculating and visualizing polarity scores over time.
   - `visualisation.ipynb`: Jupyter notebook containing additional visualizations, such as n-grams and trends by country.
+
+- **Sentiment_labelling/**  
+  This notebook contains code which preprocesses and filters the data for the sample dataset of Australia, and label the sentiments to each tweets.
 
 ## Dataset
 
