@@ -8,7 +8,7 @@ The repository is organized into several directories and files, each containing 
 
 ### Directories:
 
-- **Sentiment_labelling/**  
+- **Sentiment_labelling.ipynb/**  
   This notebook contains code which preprocesses and filters the data for the sample dataset of Australia, and labels the sentiments to each tweets.
 
 - **BERT_model/**  
