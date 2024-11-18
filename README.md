@@ -17,6 +17,7 @@ The repository is organized into several directories and files, each containing 
  
 - **Results/**  
   This folder contains CSV files with the results of the sentiment analysis for the selected six countries. Including original tweet, text after preprocessing, and sentiment labels.
+  The results files can also be accessed here: https://drive.google.com/drive/folders/1OPMvmUBEsq-L70KSfNuQlk3uteyzG4eN?usp=sharing
 
 - **Sample_OriginalDataset/**  
   This directory contains the sample dataset of the six countries, each contains the first 100 rows of the dataset.
